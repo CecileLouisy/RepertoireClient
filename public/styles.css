@@ -1,0 +1,35 @@
+.alert {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.add {
+    border: 1px solid black;
+    border-radius: 7%;
+    background: #037bfa;
+    padding: 15px;
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+.articles {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    width: 15%;
+    border: 1px solid grey;
+    padding: 0.5%;
+}
+.articles a {
+    flex-grow: 1;
+}
+.containerArticles {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
